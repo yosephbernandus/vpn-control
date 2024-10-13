@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VPN Control</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body>
+    <h1>VPN Control</h1>
+
+    <!-- Path Input for Adding New VPN Paths -->
+    <input type="text" id="vpn-path" placeholder="Enter VPN path..." />
+    <button id="add-path">Add Path</button>
+    <button id="delete-paths">Delete All Paths</button>
+
+    <!-- Display VPN Paths -->
+    <h3>Stored VPN Paths</h3>
+    <ul id="vpn-paths-list"></ul>
+
+    <!-- VPN ON/OFF Buttons -->
+    <button id="vpn-on">Turn VPN On</button>
+    <button id="vpn-off">Turn VPN Off</button>
+
+    <!-- Terminal-like display area -->
+    <div id="terminal" style="width: 100%; height: 300px; background-color: black; color: white; padding: 10px; overflow-y: auto;">
+      <p>Output will appear here...</p>
+    </div>
+  </body>
+</html>
