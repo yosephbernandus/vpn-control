@@ -1,4 +1,7 @@
-# Tauri + Vanilla
+# VPN Control
+Built this for my personal VPN local apps, want to replace the cli command and config on .bashrc just click and run :)
+
+## Tauri + Vanilla
 
 This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
 
